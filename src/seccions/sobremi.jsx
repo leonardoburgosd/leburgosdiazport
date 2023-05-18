@@ -18,7 +18,7 @@ function SobreMi() {
           </p>
           <a
             href="https://drive.google.com/file/d/1jOab6iC7DRBLgFtvEnUnU_C3Ffe2tzwY/view?usp=sharing"
-            target="_blank"
+            target="_blank" rel="noreferrer"
             class="curriculum-button"
           >
             Ver Curriculum
