@@ -9,11 +9,16 @@ jobs:
             matrix:
                 node-version: [12.x]
         steps:
-        - uses: actions/checkout@v3
-        - name: Use Noje.js ${{ matrix.node-version }}
-          uses: actions/setup-node@v3
+        - name: Checkout del repositorio
+          uses: actions/checkout@v2
+    
+        - name: Configurar Node.js
+          uses: actions/setup-node@v2
           with:
-            node-version: ${{ matrix.node-version }}
-            cache: 'npm'
-        - run: npm i
-        - run: npm run build
+            node-version: 12
+    
+        - name: Instalar dependencias
+          run: npm install
+    
+        - name: Compilar proyecto
+          run: npm run build
