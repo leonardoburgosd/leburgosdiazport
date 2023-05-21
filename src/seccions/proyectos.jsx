@@ -13,7 +13,7 @@ function Proyectos() {
           </a>
           <p>Proyecto en Arduino, WinForms, Firebase y Xamarin</p>
         </div>
-        <img src={require("../styles/img/firebaseProyc.png")} />
+        <img src={require("../styles/img/firebaseProyc.png")} alt="" />
       </div>
       <div class="proyect-element">
         <div class="content-element">
@@ -25,7 +25,7 @@ function Proyectos() {
           </a>
           <p>Proyecto de escritorio con .net Framework, SqlServer y WPF</p>
         </div>
-        <img src={require("../styles/img/wpfProyec.png")} />
+        <img src={require("../styles/img/wpfProyec.png")} alt=""/>
       </div>
       <div class="proyect-element">
         <div class="content-element">
@@ -37,7 +37,7 @@ function Proyectos() {
           </a>
           <p>Proyecto MVC en C# y SQL Server</p>
         </div>
-        <img src={require("../styles/img/akamikaProyc.png")} />
+        <img src={require("../styles/img/akamikaProyc.png")} alt=""/>
       </div>
     </section>
   );
