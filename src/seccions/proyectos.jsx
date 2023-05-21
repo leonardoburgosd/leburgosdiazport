@@ -8,7 +8,7 @@ function Proyectos() {
       </div>
       <div class="proyect-element">
         <div class="content-element">
-          <a href="https://www.youtube.com/watch?v=whdph6Q_oek" target="_blank">
+          <a href="https://www.youtube.com/watch?v=whdph6Q_oek" target="_blank" rel="noopener noreferrer">
             Encender un led
           </a>
           <p>Proyecto en Arduino, WinForms, Firebase y Xamarin</p>
@@ -20,6 +20,7 @@ function Proyectos() {
           <a
             href="https://codcafein.azurewebsites.net/2018/01/14/aplicacion-de-escritorio-con-wpf-y-web-api-c/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Azure Web API y WPF
           </a>
@@ -32,6 +33,7 @@ function Proyectos() {
           <a
             href="https://www.youtube.com/watch?v=63l2ByJUAUM&t=120s"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Akamika
           </a>
