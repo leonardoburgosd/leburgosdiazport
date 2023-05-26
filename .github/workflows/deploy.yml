@@ -29,7 +29,7 @@ jobs:
 
     - name: Eliminar contenido
       run: |
-        if [ "$(ls -A /ruta/a/verificar)" ]; then
+        if [ "$(ls -A /var/www/html)" ]; then
             sudo rm -r /var/www/html/*
 
     - name: Copy files
