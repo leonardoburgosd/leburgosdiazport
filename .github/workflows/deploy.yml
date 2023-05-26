@@ -30,7 +30,8 @@ jobs:
     - name: Eliminar contenido
       run: |
         if [ "$(ls -A /var/www/html)" ]; then
-            sudo rm -r /var/www/html/*
+            sudo find /var/www/html -mindepth 1 ! -type d -exec rm {} \;
+            sudo rm -r /var/www/html/static
         else
             echo "No hay archivos que eliminar"
         fi
