@@ -25,4 +25,13 @@ jobs:
       run: npm run build
 
     - name: Position
-      run: ls -1
+      run: cd build
+
+    - name: Eliminar contenido
+      run: sudo rm -r /var/www/html
+
+    - name: Copy files
+      run: sudo cp -r build/* /var/www/html
+    
+    - name: Actualiza nginx
+      run: sudo service nginx restart
