@@ -28,7 +28,7 @@ jobs:
       run: cd build
 
     - name: Eliminar contenido
-      run: sudo rm -r /var/www/html
+      run: sudo rm -r /var/www/html/*
 
     - name: Copy files
       run: sudo cp -r build/* /var/www/html
