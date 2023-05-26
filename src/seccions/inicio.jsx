@@ -6,7 +6,7 @@ import '../styles/estilos.css'
         <div class="contenido-inicio">
           <h1>Hola,</h1>
           <h1>Soy Leonardo Burgos Díaz</h1>
-          <h1 id="typewriter" class="tipos">Leonardo Burgos Díaz</h1>
+          <h1 id="typewriter" class="tipos">Programador Backend</h1>
         </div>
       </section>
     );
