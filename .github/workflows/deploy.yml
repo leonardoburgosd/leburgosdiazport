@@ -31,6 +31,9 @@ jobs:
       run: |
         if [ "$(ls -A /var/www/html)" ]; then
             sudo rm -r /var/www/html/*
+        else
+            echo "No hay archivos que eliminar"
+        fi
 
     - name: Copy files
       run: sudo cp -r build/* /var/www/html
