@@ -9,7 +9,7 @@ function SobreMi() {
           <h1>Sobre mi</h1>
           <h2>Soy Leonardo Burgos Díaz</h2>
           <p>
-            Técnico en Computación e Informática con más de tres años de
+            Técnico en Computación e Informática con más de cuatro años de
             experiencia como desarrollador web, egresado de Ingeniería de
             Sistemas Computacionales. Soy una persona que aprecia el
             conocimiento y por ello estoy en constante aprendizaje de nuevas
