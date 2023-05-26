@@ -3,10 +3,10 @@ import '../styles/estilos.css'
 function habilidadesButton({ name, svg }) {
   return (
     <li class="icon">
-      <a href="#">
+      <button>
         <img src={require("../styles/icons/" + svg + ".svg")} alt="" />
         <small>{name}</small>
-      </a>
+      </button>
     </li>
   );
 }
