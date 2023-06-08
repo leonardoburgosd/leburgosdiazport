@@ -1,0 +1,50 @@
+.inicio {
+    font-family: var(--font-principal);
+    color: var(--color-texto);
+    height: 100vh;
+    position: relative;
+  }
+  
+  .contenido-inicio {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+  }
+  
+  .contenido-inicio > h1 {
+    font-size: 50px;
+    padding: 3px
+  }
+  
+  .tipos {
+    color: var(--color-terciario);
+  }
+  
+  @media only screen and (min-width: 280px) {
+    .contenido-inicio {
+      position: absolute;
+      top: 40%;
+      left: 10%;
+    }
+  
+    .contenido-inicio > h1 {
+      font-size: 30px;
+    }
+  }
+  
+  @media only screen and (min-width: 760px) {
+    .contenido-inicio {
+      position: absolute;
+      top: 40%;
+      left: 10%;
+    }
+  
+    .contenido-inicio > h1 {
+      font-size: 60px;
+    }
+  }
+  @media only screen and (min-width: 1400px) {
+    .contenido-inicio > h1 {
+      font-size: 80px;
+    }
+  }

@@ -1,0 +1,14 @@
+.contacto {
+    text-align: center;
+    background: var(--color-terciario);
+    padding: 60px;
+    align-items: center;
+  }
+  
+  .social {
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+    color: var(--color-primario);
+  }
+  

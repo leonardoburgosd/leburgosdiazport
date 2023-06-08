@@ -1,0 +1,144 @@
+
+.sobre-mi {
+    padding-top: 91px;
+    width: 100%;
+    display: flex;
+    background: var(--color-terciario);
+    vertical-align: middle;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .contenido {
+    flex: 1;
+    min-width: 220px;
+    width: 80%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .contenido > .descripcion {
+    display: block;
+    margin: auto;
+    font-size: larger;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .contenido > .descripcion > p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+  }
+  
+  .curriculum-button {
+    text-decoration: none;
+    border: 2px solid var(--color-primario);
+    padding: 8px;
+    border-radius: 5px;
+    color: var(--color-primario);
+    display: block;
+    margin: auto;
+    max-width: 33%;
+  }
+  
+  .curriculum-button:hover {
+    background: var(--color-primario);
+    color: var(--color-terciario);
+  }
+  
+  .habilidades {
+    flex: 1;
+    padding: 20px;
+    min-width: 220px;
+  }
+  
+  .tecnologias > ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  .icon {
+    border-radius: 6px;
+    background: var(--color-primario);
+    padding: 0.75rem;
+    margin: 4px;
+  }
+  
+  .icon > a {
+    text-decoration: none;
+    color: var(--color-texto);
+  }
+  
+  .icon > a > img {
+    width: 50px;
+    height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    display: block;
+    margin: auto;
+  }
+  
+  .icon > button > small {
+    display: block;
+    margin: auto;
+  }
+  
+    @media only screen and (min-width: 280px) {
+    .sobre-mi {
+      padding-top: 121px;
+    }
+  }
+  
+  @media only screen and (min-width: 540px) {
+    .sobre-mi {
+      padding-top: 116px;
+      height: 82.5vh;
+    }
+  
+    .contenido {
+      display: block;
+      margin: auto;
+    }
+  
+    .contenido > .descripcion {
+      max-width: 600px;
+      width: 80%;
+    }
+  
+    .contenido > .descripcion > h1 {
+      padding: 8px;
+    }
+  
+    .contenido > .descripcion > h2 {
+      padding: 8px;
+    }
+  
+    .contenido > .descripcion > p {
+      padding-top: 35px;
+      padding-bottom: 35px;
+    }
+  
+    .habilidades {
+      display: block;
+      margin: auto;
+    }
+    .titulo {
+      padding: 15px;
+    }
+  
+    .tecnologias {
+      width: 80%;
+      max-width: 800px;
+      display: block;
+      margin: auto;
+    }
+  
+    .icon {
+      float: left;
+      width: 70px;
+      height: 70px;
+      max-width: 70px;
+      max-height: 70px;
+    }
+  }

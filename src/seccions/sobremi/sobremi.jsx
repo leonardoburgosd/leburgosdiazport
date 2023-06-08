@@ -1,11 +1,11 @@
-import HabilidadesButton from "../components/habilidades.button";
-import '../styles/estilos.css'
+import HabilidadesButton from "../../components/skills/habilidades.button";
+import "../sobremi/sobremi.css";
 
 function SobreMi() {
   return (
-    <section id="sobre-mi" class="sobre-mi">
-      <div class="contenido">
-        <div class="descripcion">
+    <section id="sobre-mi" className="sobre-mi">
+      <div className="contenido">
+        <div className="descripcion">
           <h1>Sobre mi</h1>
           <h2>Soy Leonardo Burgos Díaz</h2>
           <p>
@@ -19,25 +19,22 @@ function SobreMi() {
           <a
             href="https://drive.google.com/file/d/1jOab6iC7DRBLgFtvEnUnU_C3Ffe2tzwY/view?usp=sharing"
             target="_blank" rel="noreferrer"
-            class="curriculum-button"
+            className="curriculum-button"
           >
             Ver Curriculum
           </a>
         </div>
       </div>
-      <div class="habilidades">
-        <h1 class="titulo">Habilidades</h1>
-        <div class="tecnologias">
+      <div className="habilidades">
+        <h1 className="titulo">Habilidades</h1>
+        <div className="tecnologias">
           <ul>
             <HabilidadesButton name="C#"          svg="csharp"></HabilidadesButton>
             <HabilidadesButton name="Sql Server"  svg="mssql"></HabilidadesButton>
             <HabilidadesButton name="Angular"     svg="angular"></HabilidadesButton>
-            <HabilidadesButton name="Azure"       svg="azure"></HabilidadesButton>
             <HabilidadesButton name="Html"        svg="html5"></HabilidadesButton>
             <HabilidadesButton name="Css"         svg="css3"></HabilidadesButton>
-            <HabilidadesButton name="Arduino"     svg="arduino"></HabilidadesButton>
             <HabilidadesButton name="Github"      svg="github"></HabilidadesButton>
-            <HabilidadesButton name="Python"      svg="python"></HabilidadesButton>
             <HabilidadesButton name="Javascript"  svg="javascript"></HabilidadesButton>
           </ul>
         </div>

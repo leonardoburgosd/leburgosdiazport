@@ -1,0 +1,12 @@
+.mis-tecnologias {
+  width: 100%;
+  background: #d6933b;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.mis-tecnologias > .iconos {
+  width: 40px;
+  padding: 10px;
+}
