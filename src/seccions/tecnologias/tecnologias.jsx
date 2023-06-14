@@ -42,11 +42,6 @@ function Tecnologias() {
       />
       <img
         className="iconos"
-        src={require("../../styles/icons/" + icons[5] + ".svg")}
-        alt=""
-      />
-      <img
-        className="iconos"
         src={require("../../styles/icons/" + icons[6] + ".svg")}
         alt=""
       />

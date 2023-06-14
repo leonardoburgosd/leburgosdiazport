@@ -7,11 +7,12 @@ function Cabecera() {
   };
 
   return (
-    <header className="fixed-top">
+    <header className=" fixed-top">
       <nav>
         <a className="logo" href="/">
           Leonardo<strong>Burgos</strong>
         </a>
+        
         <button className="menu-icono" onClick={handleClick}>
           <i className="fa fa-bars"></i>
         </button>

@@ -7,7 +7,11 @@ function Proyectos() {
       </div>
       <div className="proyect-element">
         <div className="content-element">
-          <a href="https://www.youtube.com/watch?v=whdph6Q_oek" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://www.youtube.com/watch?v=whdph6Q_oek"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             Encender un led
           </a>
           <p>Proyecto en Arduino, WinForms, Firebase y Xamarin</p>
@@ -23,9 +27,9 @@ function Proyectos() {
           >
             Azure Web API y WPF
           </a>
-          <p>Proyecto de escritorio con .net Framework, SqlServer y WPF</p>
+          <p>Proyecto de escritorio con .Net Framework, SqlServer y WPF</p>
         </div>
-        <img src={require("../../styles/img/wpfProyec.png")} alt=""/>
+        <img src={require("../../styles/img/wpfProyec.png")} alt="" />
       </div>
       <div className="proyect-element">
         <div className="content-element">
@@ -38,7 +42,7 @@ function Proyectos() {
           </a>
           <p>Proyecto MVC en C# y SQL Server</p>
         </div>
-        <img src={require("../../styles/img/akamikaProyc.png")} alt=""/>
+        <img src={require("../../styles/img/akamikaProyc.png")} alt="" />
       </div>
       <div className="proyect-element">
         <div className="content-element">
@@ -51,7 +55,7 @@ function Proyectos() {
           </a>
           <p>Proyecto HTML y CSS (versión 1) </p>
         </div>
-        <img src={require("../../styles/img/miPortafolio.png")} alt=""/>
+        <img src={require("../../styles/img/miPortafolio.png")} alt="" />
       </div>
     </section>
   );
