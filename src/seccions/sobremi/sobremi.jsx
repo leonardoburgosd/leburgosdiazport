@@ -14,7 +14,7 @@ function SobreMi() {
             Framework y .NET Core.
           </p>
           <a
-            href="https://drive.google.com/file/d/1bMwObF4UClHvphWxBoTo0apzw78elyMH/view?usp=sharing"
+            href="https://drive.google.com/file/d/1oaq5No8HwBECQ_qcb30HrK21zeGXtaZG/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             className="curriculum-button"
