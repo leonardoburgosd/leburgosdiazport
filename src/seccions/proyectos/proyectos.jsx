@@ -47,6 +47,45 @@ function Proyectos() {
       <div className="proyect-element">
         <div className="content-element">
           <a
+            href="https://github.com/leonardoburgosd/integra-group"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Login
+          </a>
+          <p>Proyecto de diseño de registro y login en Photoshop </p>
+        </div>
+        <img src={require("../../styles/img/integragroup.jpg")} alt="" />
+      </div>
+      <div className="proyect-element">
+        <div className="content-element">
+          <a
+            href="https://github.com/leonardoburgosd/bd-structure"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            BCreate
+          </a>
+          <p>Estructura SQL para crear un blog</p>
+        </div>
+        <img src={require("../../styles/img/bcreate.png")} alt="" />
+      </div>
+      <div className="proyect-element">
+        <div className="content-element">
+          <a
+            href="https://github.com/leonardoburgosd/bd-structure"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            ButtonStyle
+          </a>
+          <p>Proyecto con HTML y CSS de estilo de botones</p>
+        </div>
+        <img src={require("../../styles/img/buttonStyle.png")} alt="" />
+      </div>
+      <div className="proyect-element">
+        <div className="content-element">
+          <a
             href="https://github.com/leonardoburgosd/leonardoburgosd.github.io"
             target="_blank"
             rel="noopener noreferrer"
