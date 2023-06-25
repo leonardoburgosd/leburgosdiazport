@@ -68,7 +68,7 @@ function Proyectos() {
           </a>
           <p>Estructura SQL para crear un blog</p>
         </div>
-        <img src={require("../../styles/img/bcreate.png")} alt="" />
+        <img src={require("../../styles/img/bcCreate.png")} alt="" />
       </div>
       <div className="proyect-element">
         <div className="content-element">
@@ -81,7 +81,7 @@ function Proyectos() {
           </a>
           <p>Proyecto con HTML y CSS de estilo de botones</p>
         </div>
-        <img src={require("../../styles/img/buttonStyle.png")} alt="" />
+        <img src={require("../../styles/img/buttonstyleportada.png")} alt="" />
       </div>
       <div className="proyect-element">
         <div className="content-element">
@@ -95,6 +95,19 @@ function Proyectos() {
           <p>Proyecto HTML y CSS (versión 1) </p>
         </div>
         <img src={require("../../styles/img/miPortafolio.png")} alt="" />
+      </div>
+      <div className="proyect-element">
+        <div className="content-element">
+          <a
+            href="https://www.figma.com/file/PJXVqcBYWrqIfuBgT3HUny/Portafolio?type=design&node-id=0%3A1&mode=design&t=t4aeTVBxPirM40eO-1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Mi portafolio
+          </a>
+          <p>Proyecto HTML y CSS (versión 1) </p>
+        </div>
+        <img src={require("../../styles/img/portfoliov3.png")} alt="" />
       </div>
     </section>
   );
