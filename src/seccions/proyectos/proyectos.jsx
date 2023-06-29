@@ -12,7 +12,7 @@ function Proyectos() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Encender un led
+            IoT Básico
           </a>
           <p>Proyecto en Arduino, WinForms, Firebase y Xamarin</p>
         </div>
@@ -90,7 +90,7 @@ function Proyectos() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Mi portafolio
+            Mi portafolio V1
           </a>
           <p>Proyecto HTML y CSS (versión 1) </p>
         </div>
@@ -103,9 +103,9 @@ function Proyectos() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Mi portafolio
+            Mi portafolio V3
           </a>
-          <p>Proyecto HTML y CSS (versión 1) </p>
+          <p>Portafolio en Figma</p>
         </div>
         <img src={require("../../styles/img/portfoliov3.png")} alt="" />
       </div>
